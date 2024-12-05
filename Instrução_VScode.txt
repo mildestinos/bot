@@ -1,0 +1,82 @@
+Aqui está um arquivo de explicação para ajudar a rodar o **Samuel Assistente Virtual** no VS Code, chamado **`README_VSCode.md`**:
+
+---
+
+# Como Rodar o Samuel Assistente Virtual no Visual Studio Code
+
+## Pré-requisitos
+
+Antes de começar, certifique-se de que você possui os seguintes itens instalados:
+
+1. **Visual Studio Code**:
+   - [Download aqui](https://code.visualstudio.com/).
+
+2. **Extensão Live Server**:
+   - Extensão do VS Code para rodar projetos HTML localmente.
+
+---
+
+## Passo a Passo
+
+### 1. Clone o Repositório
+
+Abra o terminal ou prompt de comando e execute:
+
+```bash
+git clone https://github.com/seuusuario/samuel-assistente-virtual.git
+```
+
+Substitua o link acima pelo URL do repositório real, caso ele seja diferente.
+
+### 2. Abra o Projeto no VS Code
+
+- Navegue até o diretório onde o repositório foi clonado.
+- Abra o VS Code e, em seguida, abra a pasta do projeto:
+  - Clique em **File > Open Folder...** (ou **Arquivo > Abrir Pasta...**).
+  - Selecione a pasta do projeto.
+
+### 3. Instale o Live Server
+
+- No VS Code, abra a **Visualização de Extensões** (ícone de quadrados no menu lateral esquerdo ou `Ctrl+Shift+X`).
+- Pesquise por **Live Server**.
+- Clique em **Install** para instalar a extensão.
+
+### 4. Inicie o Projeto com Live Server
+
+- Na barra lateral do VS Code, clique com o botão direito no arquivo **`index.html`**.
+- Selecione a opção **"Open with Live Server"**.
+
+Isso iniciará um servidor local e abrirá o projeto no navegador padrão.
+
+### 5. Interaja com o Samuel Assistente Virtual
+
+- Use a interface de bate-papo para enviar mensagens e interagir com o assistente.
+- Utilize o botão "Limpar Conversa" para reiniciar a interação.
+
+---
+
+## Estrutura do Projeto
+
+- **`index.html`**: Página principal.
+- **`style.css`**: Arquivo de estilos.
+- **`script.js`**: Código responsável pela funcionalidade do assistente.
+- **`costbook.json`**: Banco de dados JSON com informações de custos e orçamentos.
+
+---
+
+## Problemas Comuns
+
+1. **Erro ao abrir o Live Server**:
+   - Certifique-se de que o Live Server está instalado e que você está tentando abrir o arquivo `index.html`.
+
+2. **Alterações não aparecem no navegador**:
+   - Salve o arquivo no VS Code após realizar alterações (`Ctrl+S` ou `Cmd+S` no macOS).
+   - Recarregue a página no navegador.
+
+3. **Live Server não funciona**:
+   - Reinicie o VS Code.
+   - Verifique se outras extensões ou processos estão interferindo.
+
+---
+
+Pronto! Agora você sabe como rodar o **Samuel Assistente Virtual** no VS Code. 🚀
