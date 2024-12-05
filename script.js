@@ -17,7 +17,7 @@ fetch("costbook.json")
 // Mensagem de boas-vindas
 function showWelcomeMessage() {
   addMessage(
-    "Bem-vindo ao Assistente de Custos do DEORC! Estou aqui para ajudá-lo. Digite um termo e escolha um assunto da lista sugerida.",
+    "Bem-vindo sou Samuel assistente virtual! Estou aqui para ajudá-lo. Digite um termo e escolha um assunto da lista sugerida.",
     "bot"
   );
 }
@@ -27,7 +27,7 @@ function suggestQuestions() {
   const suggestions = [
     "O que é custo ABC?",
     "O que são direcionadores de custos?",
-    "Como gerar um relatório no SPC?"
+    "Relatório?"
   ];
   addMessage(`Sugestões:\n${suggestions.join("\n")}`, "bot");
 }
