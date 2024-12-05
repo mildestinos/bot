@@ -18,6 +18,9 @@ O projeto está estruturado como uma aplicação web, composta pelos seguintes e
 - **Backend**:
   - Baseado no banco de dados JSON (`costbook.json`), que contém todas as informações essenciais para a lógica do assistente.
 
+- **Python**:
+  - Tem arquivo disponível para atualização em python.
+
 ---
 
 ## Funcionalidades Principais
