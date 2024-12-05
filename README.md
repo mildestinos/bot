@@ -69,7 +69,7 @@ O projeto está estruturado como uma aplicação web, composta pelos seguintes e
 - **`style.css`**: Arquivo de estilos para personalização visual.
 - **`script.js`**: Script para funcionalidade interativa do assistente.
 - **`costbook.json`**: Banco de dados com informações sobre categorias, despesas e orçamentos.
-
+- **`testar_leitura.py`**: sugestão para implantar leitura de arquivos em Python.
 ---
 
 ## Contribuição
