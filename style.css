@@ -1,0 +1,102 @@
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  /* Fundo claro */
+}
+
+/* Cabeçalho */
+header {
+  text-align: center;
+  padding: 10px;
+  background-color: #0072CE;
+  /* Azul dos Correios */
+  color: white;
+}
+
+header #pageTitle {
+  font-size: 18px;
+  margin: 0;
+}
+
+header #version {
+  font-size: 12px;
+  margin: 0;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  background-color: #f1f1f1;
+}
+
+/* Caixa do Assistente fixo no canto inferior direito */
+#chatbox {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid #0072CE;
+  /* Borda azul */
+  overflow: hidden;
+}
+
+/* Cabeçalho do Assistente */
+#chatbox::before {
+  content: "Samuel Assistente";
+  background-color: #FFCC00;
+  /* Amarelo dos Correios */
+  color: #0072CE;
+  /* Azul para contraste */
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  display: block;
+}
+
+/* Mensagens no Chat */
+#messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  font-size: 14px;
+}
+
+/* Entrada de Texto */
+#inputBox {
+  border: none;
+  border-top: 1px solid #0072CE;
+  padding: 10px;
+  font-size: 14px;
+  outline: none;
+}
+
+/* Botão de Limpar */
+#clearButton {
+  position: fixed;
+  bottom: 430px;
+  right: 20px;
+  padding: 10px;
+  background-color: #FFCC00;
+  color: #0072CE;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#clearButton:hover {
+  background-color: #FFD700;
+  /* Amarelo mais claro */
+}
