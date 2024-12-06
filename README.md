@@ -1,4 +1,4 @@
-# Samuel Assistente Virtaul
+# Samuel Assistente Virtual
 
 ## Descrição do Projeto
 
